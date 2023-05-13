@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>musclesyoga</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body{
+    
+    color: beige;
+    margin: 0px;
+   padding: 0px;
+   background-image: url("IMG/abs-1850926.jpg");
+   /* background-repeat: no-repeat; */
+  background-size: 100%;
+  font-family: 'Baloo Bhai', cursive;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    text-align: center;
+
+}
+.left img{
+    width: 90px;
+    
+}
+.mid{
+    /* border: 2px solid rgb(0, 140, 255); */
+    display: block;
+    width: 38%;
+    margin: 29px auto;
+    
+}
+.right{
+    /* border: 2px solid rgb(81, 255, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 32px;
+    
+}
+.navbar{
+    display: inline-block;
+   
+}
+.navbar li{
+        display: inline-block;
+        font-size: 15px;
+    }
+    .navbar li a{
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 10px;}
+
+        .navbar li a:hover,.navbar li a.active
+        {
+            text-decoration: underline;
+            color:rgba(124, 22, 8, 0.425);;
+        }
+        .btn{
+            margin: 12px 9px;
+            color: antiquewhite;
+            background-color: black;
+            padding: 6px 14px;
+            /* border: 2px solid rgba(124, 22, 8, 0.425); */
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            
+        }
+        .btn:hover{
+            background-color: rgba(124, 22, 8, 0.425);  
+        }
+        .container{
+            border: 2px solid white;
+            text-align: center;
+            margin: 100px 80px;
+            padding:  72px;
+            width: 69%;
+            border-radius: 20px;
+        }
+        .frmgrp input{
+            text-align: center;
+            display: block;
+            width: 400px;
+            margin: 40px auto;
+            padding: 10px;
+            border-radius: 32px;
+            font-size: 20px;
+            /* border: 2px solid lightblue; */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .container button{
+            display: block;
+            width: 46%;
+            padding: 13px;
+            margin:30px auto;
+            border-radius: 32px;
+        }
+        </style>
+<body>
+   
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/musclesyoga-logo.png" alt="">
+           <div> MusclesYoga</div>
+        </div>
+        <!-- mid for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">HOME</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">FITNESS CALCI</a></li>
+            </ul>
+        </div>
+        <!-- but for right -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container"><h1>JOIN MusclesYoga</h1>
+    <form action="noaction.php">
+        <div class="frmgrp">
+            <input type="text" name=""placeholder="enter your name">
+        </div>
+        <div class="frmgrp">
+            <input type="text" name=""placeholder="enter your age">
+        </div>
+        <div class="frmgrp">
+            <input type="text" name=""placeholder="enter your gender">
+        </div>
+        <div class="frmgrp">
+            <input type="text" name=""placeholder="enter your mobile number">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
